@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+}
+#htmltags, #htmltagssuported {
+    margin-top: 6%;
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+table{
+    border-top-style: outset;
+    border-bottom-style: outset;
+    border-right-style: outset;
+    border-left-style: outset;
+}
+
+.com {
+    text-shadow: 2px 2px 5px gray;
+}
+
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#TableName:hover {
+    color: black;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+    color: red;
+}
+
+a:active, a:visited, a {
+    color: gray;
+}
+
+abbr {
+    cursor: help;
+    color: peru;
+}
+
+#up {
+    color: rgb(4, 0, 255);
+    text-decoration: none;
+}
+
+#tableInput {
+    text-align: center;
+    width: 70%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+}

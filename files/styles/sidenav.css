@@ -1,0 +1,43 @@
+.sidenav a {
+    font-family: "Calibri",Arial,sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 2px 1px 1px 10px
+}
+
+.sidenav h2 {
+    text-align: center;
+}
+
+.sidenav a:hover,.sidenav a:focus {
+    color: #000000;
+    background-color: #cccccc;
+}
+
+.sidenav a {
+    padding: 3px 2px 3px 24px;
+    font-size: 17px;
+}
+
+.sidenav {
+    height: 97%;
+    width: 15%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 10px;
+}
+
+nav {
+    display: block;
+    scrollbar-color: red;
+}
+
+main {
+    margin-left: 16%;
+    width: 75%;
+}
+.sidenav hr {
+    width: 90%;
+}

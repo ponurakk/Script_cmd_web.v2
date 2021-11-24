@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Skrypty">
+    <meta name="keywords" content="skrypty, html, html 5, c#, python">
+    <link rel="stylesheet" href="files/styles/global-style.css" type="text/css">
+    <script src="files/scripts/home.js"></script>
+    <title>Strona</title>
+    <style>
+
+    .main {
+      text-align: center;
+    }
+
+    main {
+      text-align: center;
+    }
+
+    div {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .htmldiv, .jsdiv, .cssdiv, .csharpdiv, .cppdiv, .pythondiv {
+      min-height: 500px; 
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .htmldiv {
+      background-image: radial-gradient(rgb(235, 112, 55), rgb(229, 76, 33));
+    }
+
+    .jsdiv {
+      background-image: radial-gradient(rgb(226, 199, 62), rgb(255, 220, 22));
+    }
+
+    .cssdiv {
+      background-image: radial-gradient(rgb(41, 101, 241), rgb(38, 77, 228));
+    }
+
+    .csharpdiv {
+      background-image: radial-gradient(rgb(152, 103, 212), rgb(37, 0, 101));
+    }
+
+    .cppdiv {
+      background-image: radial-gradient(rgb(101, 155, 211), rgb(0, 66, 131));
+    }
+
+    .pythondiv {
+      background-image: radial-gradient(rgb(255, 200, 0), rgb(0, 140, 255));
+    }
+
+    img {
+      margin-top: 10%;
+      margin-bottom: 10%;
+    }
+
+    .block {
+      background-color: black;
+      min-height: 50px;
+      position: sticky;
+      top: 0;
+      cursor: pointer;
+    }
+
+    .block h1::selection {
+      background: none;
+    }
+
+    .block h1 {
+      margin-left: 42%;
+      color: white;
+      text-align: center;
+      font-size: 30px;
+      text-shadow: 2px 2px red;
+      display: inline-block;
+      width: 200px;
+    }
+
+    .top:visited, .top:link, .top:link:active, .top:visited:active, .top {
+      margin-top: 14%;
+      color: green;
+    }
+
+    li a {
+      color: blue;
+    }
+
+    .arrow {
+      margin-left: 40%;
+      border: solid rgb(255, 255, 255);
+      border-width: 0 5px 5px 0;
+      display: inline-block;
+      padding: 10px;
+    }
+
+    @keyframes upanim {
+      100% {transform: rotate(45deg);}
+    }
+
+    @keyframes downanim {
+      100% {transform: rotate(-135deg);}
+    }
+
+    @keyframes hide {
+      25% {height: 75%;}
+      50% {height: 50%;}
+      75% {height: 25%;}
+      100% {height: 0%;}
+    }
+    @keyframes show {
+      25% {height: 25%;}
+      50% {height: 50%;}
+      75% {height: 75%;}
+      100% {height: 100%;}
+    }
+
+    .up {
+      transform: rotate(-135deg);
+    }
+
+    .down {
+      transform: rotate(45deg);
+    }
+
+    </style>
+  </head>
+  <body>
+    <nav class="uppernav">
+      <a href="https://github.com/ponurakk" target="_blank">GitHub</a>
+      <a href="view.php">O stronie</a>
+      <a href="about.html">Log In</a>
+    </nav>
+    <a href="index.html" class="main"><h1>Main Page</h1></a>
+    <hr>
+    <main>
+      <div>
+        <nav id="list" class="nav-hide-id">
+          <ul>
+            <li>Go to:</li>
+            <li><a href="#htmldiv" class="htmla">HTML 5</a></li>
+            <li><a href="#jsdiv" class="jsa">Java Script</a></li>
+            <li><a href="#cssdiv" class="cssa">CSS</a></li>
+            <li><a href="#csharpdiv" class="csharpa">C#</a></li>
+            <li><a href="#cppdiv" class="cppa">C++</a></li>
+            <li><a href="#pythondiv" class="pythona">Python</a></li>
+          </ul>
+          <div class="nav-show" onclick="navShow()">
+            <p>Go to</p>
+          </div>
+        </nav>
+
+        <div style="height: 1px;"></div>
+
+        <div id="div1">
+          <div class="block" onclick="divClick1()"><h1>HTML 5</h1><span class="arrow up" id="arr1"></span></div>
+
+          <div class="htmldiv" id="htmldiv">
+            <!--HTML5-->
+
+            <a href="HTML5.html">
+              <img src="files/images/HTML5_logo.png" alt="HTML5 reference" width="20%" height="20%" class="img">
+            </a>
+            
+          </div>
+        </div>
+
+
+        <div id="div2">
+          <div class="block" onclick="divClick2()"><h1>Java Script</h1><span class="arrow up" id="arr2"></span></div>
+
+          <div class="jsdiv" id="jsdiv">
+            <!--JS-->
+
+            <a href="JS.html">
+              <img src="files/images/js-logo.png" alt="Java Script reference" width="16%" height="16%" class="img">
+            </a>
+            
+          </div>
+        </div>
+
+
+        <div id="div3">
+          <div class="block" onclick="divClick3()"><h1>CSS 3</h1><span class="arrow up" id="arr3"></span></div>
+
+          <div class="cssdiv" id="cssdiv">
+            <!--CSS3-->
+
+            <a href="CSS3.html">
+              <img src="files/images/CSS3-logo.png" alt="CSS3 reference" width="20%" height="20%" class="img">
+            </a>
+            
+          </div>
+        </div>
+
+
+        <div id="div4">
+          <div class="block" onclick="divClick4()"><h1>C#</h1><span class="arrow up" id="arr4"></span></div>
+
+          <div class="csharpdiv" id="csharpdiv">
+          <!--C#-->
+
+            <a href="C_Sharp.html">
+              <img src="files/images/C_Sharp_logo.png" alt="C# reference" width="20%" height="20%" class="img">
+            </a>
+
+          </div>
+        </div>
+
+
+        <div id="div5">
+          <div class="block" onclick="divClick5()"><h1>C++</h1><span class="arrow up" id="arr5"></span></div>
+
+          <div class="cppdiv" id="cppdiv">
+          <!--C++-->
+
+            <a href="C++.html">
+              <img src="files/images/C++_logo.png" alt="C++ reference" width="20%" height="20%" class="img">
+            </a>
+
+          </div>
+        </div>
+
+
+        <div id="div6">
+          <div class="block" onclick="divClick6()"><h1>Python</h1><span class="arrow up" id="arr6"></span></div>
+
+          <div class="pythondiv" id="pythondiv">
+          <!--Python-->
+
+            <a href="Python.html">
+              <img src="files/images/Python_logo.png" alt="Python reference" width="20%" height="20%" class="img">
+            </a>
+
+          </div>
+        </div>
+
+        <a href="#" class="top">*Up*</a>
+
+      </div>
+    </main>
+
+  </body>
+</html>
