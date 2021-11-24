@@ -192,7 +192,7 @@ div nav#list ul li a.jsa::before{
 	background-image: url(/ponurakk/Script_cmd_web.v2/files/images/js-logo.png);
 }
 div nav#list ul li a.cssa::before{
-	background-image: url(/home/ponurakk/HTML/Script_cmd_web.v2/files/images/CSS3-logo.png);
+	background-image: url(https://github.com/ponurakk/Script_cmd_web.v2/blob/main/files/images/CSS3-logo.png);
 }
 div nav#list ul li a.csharpa::before{
 	background-image: url(/home/ponurakk/HTML/Script_cmd_web.v2/files/images/C_Sharp_logo.png);
