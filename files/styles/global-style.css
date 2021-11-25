@@ -189,7 +189,7 @@ div nav#list ul li a.htmla::before{
 	background-image: url(ponurakk/Script_cmd_web.v2/files/images/HTML5_logo.png);
 }
 div nav#list ul li a.jsa::before{
-	background-image: url(/ponurakk/Script_cmd_web.v2/files/images/js-logo.png);
+	background-image: url(../ponurakk/Script_cmd_web.v2/files/images/js-logo.png);
 }
 div nav#list ul li a.cssa::before{
 	background-image: url(https://github.com/ponurakk/Script_cmd_web.v2/blob/main/files/images/CSS3-logo.png);
@@ -198,7 +198,7 @@ div nav#list ul li a.csharpa::before{
 	background-image: url("https://github.com/ponurakk/Script_cmd_web.v2/blob/main/files/images/C_Sharp_logo.png");
 }
 div nav#list ul li a.cppa::before{
-	background-image: url(/home/ponurakk/HTML/Script_cmd_web.v2/files/images/C++_logo.png);
+	background-image: url(../files/images/C++_logo.png);
 }
 div nav#list ul li a.pythona::before{
 	background-image: url(https://raw.githubusercontent.com/ponurakk/Script_cmd_web.v2/main/files/images/Python_logo.png);
