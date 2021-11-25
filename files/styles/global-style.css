@@ -195,7 +195,7 @@ div nav#list ul li a.cssa::before{
 	background-image: url(https://github.com/ponurakk/Script_cmd_web.v2/blob/main/files/images/CSS3-logo.png);
 }
 div nav#list ul li a.csharpa::before{
-	background-image: url("https://github.com/ponurakk/Script_cmd_web.v2/blob/main/files/images/C_Sharp_logo.png");
+	background-image: url(https://raw.githubusercontent.com/ponurakk/Script_cmd_web.v2/main/files/images/C_Sharp_logo.png);
 }
 div nav#list ul li a.cppa::before{
 	background-image: url(../files/images/C++_logo.png);
