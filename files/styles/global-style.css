@@ -252,7 +252,7 @@ table th.edge-tab {
 
 /*			table-end			*/
 
-/*			Tip			*/
+/*			Tip-start			*/
 
 .tip::before {
 	content: "Tip: ";
@@ -263,4 +263,4 @@ table th.edge-tab {
 	background-color: rgb(197, 197, 197);
 }
 
-/*			Tip			*/
+/*			Tip-end			*/
