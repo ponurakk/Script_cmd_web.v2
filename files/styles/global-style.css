@@ -34,14 +34,13 @@ p.definition {
 
 .code-result {
 	background-color: white;
-	height: 100px;
-}
-.code-result a {
-	vertical-align: middle;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 
 .code-result-text {
-	border: 1px solid black;
+	vertical-align: middle;
+	
 }
 
 .brackethtml {
@@ -143,7 +142,7 @@ div nav#list {
 div nav#list div.nav-show {
 	position: absolute;
 	left: 210px;
-	bottom: 103px;
+	bottom: 51%;
 	background-color: black;
 	width: 50px;
 	height: 100px;
@@ -153,12 +152,12 @@ div nav#list div.nav-show {
 }
 .nav-hide-id {
 	right: 214px !important;
-	
+
 	transition: .3s ease-in;
 }
 .nav-show-id {
 	right: 0px !important;
-	
+
 	transition: .3s ease-in;
 }
 div nav#list div.nav-show p {
