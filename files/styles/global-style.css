@@ -201,7 +201,7 @@ div nav#list ul li a.cppa::before{
 	background-image: url(/home/ponurakk/HTML/Script_cmd_web.v2/files/images/C++_logo.png);
 }
 div nav#list ul li a.pythona::before{
-	background-image: url(/home/ponurakk/HTML/Script_cmd_web.v2/files/images/Python_logo.png);
+	background-image: url(https://raw.githubusercontent.com/ponurakk/Script_cmd_web.v2/main/files/images/Python_logo.png);
 }
 
 /*			list-end			*/
